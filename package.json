@@ -1,0 +1,28 @@
+{
+  "name": "cassidoo-10-20-2025",
+  "version": "1.0.0",
+  "description": "solution for the cassidoo newsletter interview question sent on 10-20-2025",
+  "keywords": [
+    "cassidoo"
+  ],
+  "homepage": "https://github.com/MicahLC/cassidoo-10-20-2025#readme",
+  "bugs": {
+    "url": "https://github.com/MicahLC/cassidoo-10-20-2025/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicahLC/cassidoo-10-20-2025.git"
+  },
+  "license": "MIT",
+  "author": "Micah Lapping-Carr",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tsx --test"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
