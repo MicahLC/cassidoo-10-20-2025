@@ -1,7 +1,8 @@
-/*
-Given a string str and an array of positive integers widths, write a function that splits the string into lines, each with the exact number of characters as specified by the corresponding width. Return an array of the substrings. Use the last width for any remaining characters if the array is shorter than needed.
+/**
+ * Given a string str and an array of positive integers widths, write a function that splits the string into lines, 
+ * each with the exact number of characters as specified by the corresponding width. Return an array of the substrings.
+ * Use the last width for any remaining characters if the array is shorter than needed.
 */
-
 export const splitByWidths = (str: string, widths: number[]) => {
     if (widths.length === 0) {
         return [str];
